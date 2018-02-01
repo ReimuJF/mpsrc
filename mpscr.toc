@@ -1,0 +1,7 @@
+## Interface: 70300
+## Title: mpscr
+## Notes: An automatic screenshot addon.
+## Author: Forgent
+## Version: 0.5
+
+core.lua
