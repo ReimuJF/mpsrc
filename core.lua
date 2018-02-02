@@ -38,5 +38,5 @@ local function delayTakeScreenshot()
 end
 
 local af = CreateFrame("Frame")
-af:RegisterEvent("BANKFRAME_OPENED")
+af:RegisterEvent("CHALLENGE_MODE_COMPLETED")
 af:SetScript("OnEvent", delayTakeScreenshot)
