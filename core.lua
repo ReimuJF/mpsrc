@@ -34,7 +34,7 @@ end
 
 local function delayTakeScreenshot()
    --print("test")
-   C_Timer.After(3, function() TakeScreenShot() end)
+   C_Timer.After(5, function() TakeScreenShot() end)
 end
 
 local af = CreateFrame("Frame")
